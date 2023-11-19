@@ -1,0 +1,125 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #DBBE96;
+}
+
+h3{
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+ fieldset{
+    background-color: #DBBE96;
+    border-radius: 0%;
+    padding: 3px;
+    margin: 3px;
+    border: none;
+}
+ footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #C88B31;
+    padding: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    margin: 6px;
+    padding: 6px;
+}
+
+ img{
+    font-size: 25px;
+    border-radius: 75%;
+    float:right;
+    margin-right: 65%;
+    margin-top: 1%;
+}
+
+ #fr{
+    background-color: #258DC8;
+    width: 80%;
+    height: 5%;
+}
+
+ #fd{
+    background-color:#FFFFFF;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    border-color: #C88B31;
+    cursor: pointer;
+}
+
+#fd:active{
+    background-color: #258DC8;
+    color: #FFFFFF;
+}
+
+#file{
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+};
+
+.testheader{
+    color:#FFFFFF !important;
+    font-weight: bold;
+    background-color: #C88B31;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formulaire{
+    width: 50%;
+    margin: 5% 0% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.field input{
+    border-radius: 10px;
+    height: 30px;
+}
+
+.photo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo img{
+    margin: 5% auto;;
+    width:150px;
+    height: 150px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #6F5127;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.envoyer{
+    background-color: red;
+    margin:  20px auto;
+    width: 80%;
+}
